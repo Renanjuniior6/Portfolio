@@ -147,11 +147,13 @@ section div button:hover {
 
 .card {
     background-color:#a6a6a6;
-    height: 500px;
+    height: 491px;
     width: 335px;
     border-radius: 20px;
     padding: 20px 35px;
     text-align: center;
+    margin-bottom: 20px;
+    
 }
 
 .card img {
@@ -184,6 +186,7 @@ section div button:hover {
     cursor: pointer;
     transition: 0.4s;
     text-decoration: none;
+    
 }
 
 #card-ToDoList p {
@@ -196,8 +199,13 @@ section div button:hover {
 }
 
 .card-projetos {
+    width: 70%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
 }
 
